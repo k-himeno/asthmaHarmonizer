@@ -10,7 +10,7 @@
       harmonized_database_dynamic <<- readRDS(
         system.file(
           "extdata",
-          "harmonized_database.rda",
+          "harmonized_database_dynamic_backup.rds",
           package = pkgname,
           mustWork = TRUE
         )
